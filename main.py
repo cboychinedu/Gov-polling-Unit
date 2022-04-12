@@ -7,7 +7,6 @@ Date:
 """
 
 # Importing the necessary modules
-from distutils.log import debug
 import os
 from modules.modules import DatabaseFunctions
 from flask import Flask, url_for, render_template
