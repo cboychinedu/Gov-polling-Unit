@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="{{ url_for('static', filename='javascript/ajax-min.js')}}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/polling_units.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main_navbar">
+        <nav class="left_nav">
+            <a href="/"> HOME </a>
+            <a href=""> ABOUT </a>
+            <a href=""> CONTACT US </a>
+            <a href=""> NOTIFICATIONS </a>
+        </nav>
+        <nav class="right_nav">
+
+        </nav>
+
+    </div>
+
+    <div class="flash_message_div" id="flash_message_div">
+      <span class="flash_message_value"> Polling Unit Not Found </span>
+    </div>
+
+    <div class="polling_units_div_res">
+        <input type="search" placeholder="Search Polling Unit" class="search_box" id="search_box">
+        <input type="button" value="Search" class="search" id="search">
+        <input type="button" value="Summed Total Results" class="summed_total_results" id="summed_total_results"> <br>
+    </div>
+
+    <section class="main_section" id="main_section">
+        <div class="data_div" id="data_div">
+            <table class="my_table" id="my_table" style="height: fit-content;">
+                <tr>
+                  <th>ID</th>
+                  <th> <b> POLLING UNIT </b> </th>
+                  <th> <b> WARD </b> </th>
+                  <th> <b> LGA ID </b></th>
+                  <th> <b> UNIQUE WARD ID </b> </th>
+                  <th> <b> POLLING UNIT NUMBER </b> </th>
+                  <th> <b> POLLING UNIT NAME </b> </th>
+                  <th> <b> POLLING UNIT DESCRIPTION </b> </th>
+                  <th> <b> LATITUDE </b> </th>
+                  <th> <b> LONGITUDE </b> </th>
+                  <th> <b> ENTERED BY USER </b> </th>
+                  <th> <b> DATE ENTERED </b> </th>
+                  <th> <b> USER IP ADDRESS </b> </th>
+                </tr>
+              </table>
+        </div>
+
+    </section>
+
+
+
+    <!-- Adding the footer -->
+    <footer class="footer_div">
+      <footer class="f-footer">
+        <ul>
+           <li>
+             <a href="#"> Resources </a>
+           </li>
+           <li>
+             <a href="#"> FAQ </a>
+           </li>
+           <li>
+             <a href="#"> Store </a>
+           </li>
+           <li>
+             <a href="#"> Community </a>
+           </li>
+           <li>
+             <a href="#"> Email Us </a>
+           </li>
+        </ul>
+
+      </footer>
+
+      <footer class="s-footer">
+        <ul>
+           <li>
+             <a href="#"> Product </a>
+           </li>
+           <li>
+             <a href="#"> Status </a>
+           </li>
+           <li>
+             <a href="#"> Privacy Policy </a>
+           </li>
+           <li>
+             <a href="#"> Advertisers </a>
+           </li>
+           <li>
+             <a href="#"> Sales </a>
+           </li>
+        </ul>
+
+      </footer>
+
+      <div class="t-footer">
+        <ul>
+           <li>
+             <a href="#"> Social Media </a>
+           </li>
+           <li>
+             <a href="#"> Reddit </a>
+           </li>
+           <li>
+             <a href="#"> Twitter </a>
+           </li>
+           <li>
+             <a href="#"> Facebook </a>
+           </li>
+           <li>
+             <a href="#"> Youtube </a>
+           </li>
+        </ul>
+
+      </div>
+    </footer>
+
+    <footer class="lower_footer">
+        <a id="work"> Government Polling Unit Display Analysis. </a>
+    </footer>
+
+
+    <!-- Adding the javascript -->
+    <script src="{{ url_for('static', filename='javascript/polling_units_result.js')}}"></script>
+</body>
+</html>
