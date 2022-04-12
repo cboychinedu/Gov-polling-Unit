@@ -126,4 +126,4 @@ def store_all_result_for_parties():
 
 # Running the application
 if __name__ == "__main__":
-    app.run(host="localhost")
+    app.run()
