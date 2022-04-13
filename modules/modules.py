@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# Author: Mbonu Chinedum
+# Desc: Government Polling Unit Analysis
+# Date: 13/04/2022
+
 # Creating a class for performing the database functions.
 class DatabaseFunctions:
     # The init method
@@ -10,7 +14,8 @@ class DatabaseFunctions:
     def polling_units_result(self, conn):
         # Connect to the database, and execute the following sql
         # statements
-        cursor = conn.execute("select * from polling_unit")
+        sql_statement = """select * from polling_unit""";
+        cursor = conn.execute(sql_statement);
         polling_unit = cursor.fetchall()
         return polling_unit
 
@@ -22,7 +27,8 @@ class DatabaseFunctions:
         search_list = [];
 
         # Connect into the sqlite3 database, and execute the sql statement
-        cursor = conn.execute("select * from polling_unit")
+        sql_statement = """select * from polling_unit""";
+        cursor = conn.execute(sql_statement)
         polling_unit = cursor.fetchall()
 
         # Peform the search, and compare the results
@@ -45,8 +51,9 @@ class DatabaseFunctions:
     # Creating a method to check for the summed total results for the
     # polling units under local government area.
     def summed_total_results_for_polling_units_under_lga(self, conn):
-        #
-        cursor = conn.execute("select * from lga")
+        # Connect into the database with the specified sql statement
+        sql_statement = """select * from lga""";
+        cursor = conn.execute(sql_statement);
         summed_total_results = cursor.fetchall()
         return summed_total_results
 
@@ -59,7 +66,8 @@ class DatabaseFunctions:
 
         # Connect into the sqlite3 database, and execute the sql statement
         # cursor = conn.execute("select * from lga where lga_name=?", (search_tag,))
-        cursor = conn.execute("select * from lga")
+        sql_statement = """select * from lga""";
+        cursor = conn.execute(sql_statement);
         searched_results = cursor.fetchall()
 
         # Perform the search, and compare the results
@@ -79,7 +87,42 @@ class DatabaseFunctions:
         # Return the result back to the user
         return search_list;
 
-    # Creating a method to store the parties into the database 
-    def store_result_for_parties(self, conn):
-        #
-        pass
+    # Creating a method to extract all the announced polling units results
+    def display_announced_polling_units_results(self, conn):
+        # Connect to the database, and execute the following sql statements
+        sql_statement = """ select * from announced_pu_results""";
+        cursor = conn.execute(sql_statement);
+        announced_pu_results = cursor.fetchall()
+
+        # Return the results
+        return announced_pu_results;
+
+
+    # Creating a method to store the parties into the database
+    def store_result_for_all_polling_unit_parties(self, conn, result_id, polling_unit_uniqueid,
+    party_abbreviation, party_score, entered_by_user, date_entered, user_ip_address):
+        # Execute the block of code below to store new results for all polling
+        # unit parties
+        # Getting the values to be saved into the database
+        values = (
+            result_id, polling_unit_uniqueid, party_abbreviation,
+            party_score, entered_by_user, date_entered, user_ip_address)
+
+        # Write an sql statement for saving the new values, connect to the
+        # database, and save the sql statement
+        # On successful connection, execute the block of code below
+        sql_statement = """insert into announced_pu_results values (?, ?, ?, ?, ?, ?, ?)"""
+
+        # Using the try Exception block
+        try:
+            cursor = conn.execute(sql_statement, values)
+            # Commiting the connections
+            conn.commit()
+
+            # Return a successful result
+            return { "data": "success", "message": "Data Saved!"};
+
+        # On error
+        except Exception as e:
+            # Return a successful result
+            return { "data": "error", "message": "Error Saving The Polling Unit!"};

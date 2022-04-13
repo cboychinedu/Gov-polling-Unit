@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
 
-"""
-Name: Mbonu Chinedum Endurance
-Description: Polling Units Task
-Date:
-"""
+# Author: Mbonu Chinedum
+# Desc: Government Polling Unit Analysis
+# Date: 13/04/2022
 
 # Importing the necessary modules
 import os
+import logging
 from modules.modules import DatabaseFunctions
 from flask import Flask, url_for, render_template
-from flask import flash
+from flask import request
 import sqlite3
 
 # Creating an instance of the database module
 # Connecting to the database
 dbPath = os.path.sep.join(["modules", "mydb.db"])
+
+# Setting the logging parameters
+logging.basicConfig(filename="requests.log", level=logging.DEBUG,
+                        format='%(asctime)s %(message)s',
+                        datefmt='%m/%d/%Y %I:%M:%S %p')
 
 # Creating an instance of the database classes
 db = DatabaseFunctions()
@@ -82,7 +86,7 @@ def search_polling_units_results(search_tag):
     return { "data": data, "message": "Data found!"};
 
 
-# Creating a route for the summed total results for polling units
+# Creating a GET route for the summed total results for polling units
 @app.route("/summed_total_results", methods=["GET"])
 def summed_total_results_get():
 
@@ -117,11 +121,54 @@ def summed_total_results_post():
     # Return the extracted data back to the user(client)
     return { "data": data }
 
+# Creating a route for displaying the ANNOUNCED POLLING UNITS RESULTS
+@app.route("/announced_polling_unit_results", methods=["GET", "POST"])
+def announced_polling_unit_results():
+    # If the request method was a get request, execute the block of
+    # code below
+    if request.method == "GET":
+        # Return the "announced_polling_unit_results.html" template file
+        # back to the client
+        return render_template("announced_polling_unit_results.html")
+
+    # If the request was a post request, execute the block of code
+    # below
+    # to display all announced polling unit parties
+    if request.method == 'POST':
+        # Connect to the sqlilte3 database, and extract all the
+        # data for the announced polling units.
+        conn = sqlite3.connect(dbPath)
+        data = db.display_announced_polling_units_results(conn)
+
+        # Return the extracted data back to the user
+        return { "data": data, "message": "Data found!"};
+
+
 
 # Creating a route for storing the results for polling units
-@app.route("/store_all_result_for_parties", methods=["POST"])
-def store_all_result_for_parties():
-    pass
+@app.route("/store_all_result_for_polling_units_parties", methods=["POST"])
+def store_all_result_for_polling_units_parties():
+    # Getting the users data
+    request_data = request.get_json()
+
+    # Extracting the data
+    result_id = request_data["result_id"];
+    polling_unit_uniqueid = request_data["polling_unit_uniqueid"];
+    party_abbreviation = request_data["party_abbreviation"];
+    party_score = request_data["party_score"];
+    entered_by_user = request_data["entered_by_user"];
+    date_entered = request_data["date_entered"];
+    user_ip_address = request_data["user_ip_address"];
+
+    # Making connections into the database server, then store the polling
+    # units information
+    conn = sqlite3.connect(dbPath)
+    data = db.store_result_for_all_polling_unit_parties(conn, result_id, polling_unit_uniqueid,
+                                party_abbreviation, party_score, entered_by_user,
+                                date_entered, user_ip_address);
+
+    # Return the results for the updated polling unit
+    return { "data": data};
 
 
 # Running the application

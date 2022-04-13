@@ -1,6 +1,7 @@
 body {
     margin: 0px auto;
     padding: 0px auto;
+    font-size: 16px;
     font-family: 'PT Sans', sans-serif;
 
 }
@@ -16,6 +17,7 @@ a {
     color: white;
     text-decoration: none;
     margin-left: 10px;
+    font-size: 16px;
     font-weight: bold;
 }
 a:hover,
@@ -25,6 +27,7 @@ a:focus {
 
 #main_navbar {
     height: 46px;
+    font-size: 16px;
     background-color: #260222;
     color: white;
     font-weight: bold;
@@ -52,6 +55,7 @@ a:focus {
     overflow-x: hidden;
     position: relative;
     margin-top: 50px;
+    font-size: 16px; 
     margin-left: 65px;
     width: auto;
     height: 602px;

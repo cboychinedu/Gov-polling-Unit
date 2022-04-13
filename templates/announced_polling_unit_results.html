@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="{{ url_for('static', filename='javascript/ajax-min.js')}}"></script>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/announced_polling_unit_results.css')}}">
     <title> Home </title>
 </head>
 <body>
@@ -25,19 +25,32 @@
 
     </div>
 
+    <div class="flash_message_div" id="flash_message_div">
+      <span class="flash_message_value" id="flash_message_value"> Error Saving Polling Unit </span>
+    </div>
+
     <div class="polling_units_div_res">
-        <input type="search" placeholder="Search Polling Unit" class="search_polling_unit" id="search_polling_unit">
+        <input type="search" placeholder="Search Polling Announced Polling Units" class="search_polling_unit" id="search_polling_unit">
         <input type="button" value="Search" class="search" id="search">
         <input type="button" value="Summed Total Results" class="summed_total_results" id="summed_total_results" > <br>
     </div>
 
+    <section class="store_values" id="store_values">
+        <input type="text" name="result_id" value="" class="result_id" id="result_id" placeholder="Result Id">
+        <input type="text" name="polling_unit_uniqueid" class="polling_unit_uniqueid" id="polling_unit_uniqueid" value="" placeholder="Polling Unit Unique Id"> <br>
+
+        <input type="text" name="party_abbreviation" class="party_abbreviation" id="party_abbreviation" value="" placeholder="Party Abbreviation">
+        <input type="text" name="party_score" value="" class="party_score" id="party_score" placeholder="Party Score"> <br>
+
+        <input type="text" name="entered_by_user" class="entered_by_user" id="entered_by_user" placeholder="Entered By User" value="">
+        <input type="text" name="date_entered" class="date_entered" id="date_entered" placeholder="Date Entered" value=""> <br>
+
+        <input type="text" name="user_ip_address" class="user_ip_address" id="user_ip_address" placeholder="User Ip Address" value=""> <br>
+        <button type="button" name="button" class="submit_btn" id="submit_btn"> Submit </button>
+    </section>
+
     <section class="main_section" id="main_section">
-        <div>
-            <input type="button" value="View Polling Unit" class="view_polling_unit" id="view_polling_unit"> <br>
-            <input type="button" value="Summed Total Results" class="summed_total_results_main" id="summed_total_results_main"> <br>
-            <input type="button" value="Store All Results" class="store_all_result_for_parties" id="store_all_result_for_parties"> <br>
-            <input type="button" value="View Announced Polling Unit" class="view_announced_polling_units_result" id="view_announced_polling_units_result"> <br>
-        </div>
+       <p> Store your values here </p>
 
     </section>
 
@@ -94,7 +107,7 @@
              <a href="#"> Reddit </a>
            </li>
            <li>
-             <a href="#"> Twitter </a>
+           <a href="#"> Twitter </a>
            </li>
            <li>
              <a href="#"> Facebook </a>
@@ -112,7 +125,7 @@
     </footer>
 
     <!-- Adding the javascript -->
-    <script src="{{ url_for('static', filename='javascript/index.js')}}"></script>
+    <script src="{{ url_for('static', filename='javascript/announced_polling_unit_results.js')}}"></script>
 <body>
 
 </body>
