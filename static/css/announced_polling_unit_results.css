@@ -265,3 +265,185 @@ ul li {
   height: 685px;
   overflow-x: hidden;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For mobile devices */
+@media screen and (max-width:500px) {
+  body {
+    margin: 0px auto;
+    padding: 0px auto;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+
+  }
+  a {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  ul li a {
+    font-size: 9px;
+  }
+  td {
+    height: 36px;
+  }
+  .main_section {
+    font-size: 11px;
+    margin-top: 43px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  #main_navbar {
+    height: 57px;
+    padding-left: 42px;
+    padding-top: 20px;
+    height: 69px;
+  }
+  .left_nav {
+    margin-left: -10px;
+    margin-right: 9px;
+  }
+  .search_polling_unit {
+    margin-left: 0px;
+    font-size: 12px;
+    border: 1px solid #e19d8d;
+  }
+  .polling_units_div_res {
+    padding-left: 44px;
+    margin-right: 0px;
+  }
+  .search_box {
+    margin-left: 0px;
+    margin-bottom: 12px;
+    height: 44px;
+    border: 1px solid #e19d8d;
+  }
+  .search {
+    margin-left: 0px;
+    margin-bottom: 12px;
+    height: 44px;
+    font-size: 12px;
+    border: 1px solid #e19d8d;
+  }
+  .summed_total_results {
+    margin-left: 0px;
+    font-size: 12px;
+    border: 1px solid #e19d8d;
+  }
+  .announced_polling_unit{
+    font-size: 14px;
+    margin-left: 11px;
+  }
+  .footer_div {
+    margin-top: 195px;
+    font-size: 10px;
+    height: 274px;
+    padding-right: 53px;
+  }
+  .view_polling_unit,
+  .view_announced_polling_units_result,
+  .summed_total_results_main,
+  .store_all_result_for_parties {
+    border: 1px solid #e19d8d;
+  }
+  .lower_footer {
+    border: none;
+    font-size: 12px;
+    background-color: #1a0117;
+  }
+  #work {
+    font-size: 10px;
+  }
+  #my_table {
+    font-size: 11px;
+  }
+  table#my_table {
+    width: 348px;
+  }
+  .result_id, .polling_unit_uniqueid,
+  .party_abbreviation, .party_score,
+  .entered_by_user, .date_entered,
+  .user_ip_address {
+    margin: 0px;
+  }
+  .store_values {
+    margin-left: -100px;
+    margin-top: -43px;
+    height: auto;
+
+  }
+  .store_values input {
+    height: 35px;
+    width: 127px;
+    font-size: 12px;
+  }
+  .user_ip_address {
+    margin-right: 163px;
+  }
+  .submit_btn {
+    height: 45px;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-left: 115px;
+    padding-right: 10px;
+    width: 158px;
+    border: 1px solid #e19d8d;
+    font-size: 12px;
+  }
+  .main_table_div {
+    overflow-y: scroll;
+    height: 430px;
+    width: 386px;
+    overflow-x: scroll;
+  }
+  .flash_message_div {
+    margin-bottom: -26px;
+    width: 173px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 46px;
+    padding-top: 13px;
+  }
+  .success_message_div {
+    margin-bottom: -26px;
+    width: 173px;
+    height: 30px;
+    font-size: 12px;
+    margin-left: 46px;
+    padding-top: 13px;
+  }
+
+
+}

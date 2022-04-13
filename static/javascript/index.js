@@ -38,8 +38,8 @@ view_announced_polling_units_btn.addEventListener("click", (event) => {
 //
 store_all_result_for_parties_btn.addEventListener("click", (event) => {
     //
-    location.href = "//store_all_result_for_polling_units_parties";
-}); 
+    location.href = "/store_all_result_for_polling_units_parties";
+});
 
 
 

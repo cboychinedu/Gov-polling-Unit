@@ -62,7 +62,7 @@ $.ajax({
         table.appendChild(tr);
     }
 
-}); 
+});
 
 // Getting the dom element for the submit button
 let submit_btn = document.getElementById("submit_btn");
@@ -107,6 +107,7 @@ submit_btn.addEventListener("click", (event) => {
         // code below
         if (respond_status === "success") {
             // Reload the page
+            alert(respond_message); 
             flash_message_div.className = "success_message_div";
             flash_message_div.style.display = "grid";
             flash_message_value.innerText = respond_message;
@@ -117,6 +118,7 @@ submit_btn.addEventListener("click", (event) => {
         // code below
         else if (respond_status === "error") {
             //
+            alert(respond_message);
             flash_message_div.className = "flash_message_div";
             flash_message_div.style.display = "grid";
             flash_message_value.innerText = respond_message;
