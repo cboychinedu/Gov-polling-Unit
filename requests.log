@@ -467,3 +467,57 @@
 04/13/2022 05:22:38 PM 127.0.0.1 - - [13/Apr/2022 17:22:38] "GET /announced_polling_unit_results HTTP/1.1" 200 -
 04/13/2022 05:22:38 PM 127.0.0.1 - - [13/Apr/2022 17:22:38] "GET /static/javascript/announced_polling_unit_results.js?q=1649866955 HTTP/1.1" 200 -
 04/13/2022 05:22:39 PM 127.0.0.1 - - [13/Apr/2022 17:22:39] "POST /store_all_result_for_polling_units_parties HTTP/1.1" 200 -
+04/13/2022 05:32:02 PM  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/13/2022 05:32:16 PM 127.0.0.1 - - [13/Apr/2022 17:32:16] "GET / HTTP/1.1" 200 -
+04/13/2022 05:32:19 PM 127.0.0.1 - - [13/Apr/2022 17:32:19] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 08:30:47 PM  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/13/2022 08:31:14 PM  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/13/2022 08:31:14 PM  * Restarting with stat
+04/13/2022 08:31:14 PM  * Debugger is active!
+04/13/2022 08:31:15 PM  * Debugger PIN: 821-230-312
+04/13/2022 08:46:12 PM 127.0.0.1 - - [13/Apr/2022 20:46:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+04/13/2022 08:46:14 PM 127.0.0.1 - - [13/Apr/2022 20:46:14] "GET / HTTP/1.1" 200 -
+04/13/2022 08:46:17 PM 127.0.0.1 - - [13/Apr/2022 20:46:17] "GET /summed_total_results HTTP/1.1" 200 -
+04/13/2022 08:46:17 PM 127.0.0.1 - - [13/Apr/2022 20:46:17] "POST /summed_total_results HTTP/1.1" 200 -
+04/13/2022 08:46:25 PM 127.0.0.1 - - [13/Apr/2022 20:46:25] "GET / HTTP/1.1" 200 -
+04/13/2022 08:46:27 PM 127.0.0.1 - - [13/Apr/2022 20:46:27] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 08:49:26 PM 127.0.0.1 - - [13/Apr/2022 20:49:26] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 08:55:10 PM 127.0.0.1 - - [13/Apr/2022 20:55:10] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 08:57:11 PM 127.0.0.1 - - [13/Apr/2022 20:57:11] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 08:57:11 PM 127.0.0.1 - - [13/Apr/2022 20:57:11] "GET /static/css/announced_polling_unit_results.css?q=1649879827 HTTP/1.1" 200 -
+04/13/2022 08:58:34 PM 127.0.0.1 - - [13/Apr/2022 20:58:34] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 08:59:02 PM 127.0.0.1 - - [13/Apr/2022 20:59:02] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:07:43 PM 127.0.0.1 - - [13/Apr/2022 21:07:43] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:07:44 PM 127.0.0.1 - - [13/Apr/2022 21:07:44] "GET /static/javascript/announced_polling_unit_results.js?q=1649880457 HTTP/1.1" 200 -
+04/13/2022 09:08:15 PM 127.0.0.1 - - [13/Apr/2022 21:08:15] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:08:15 PM 127.0.0.1 - - [13/Apr/2022 21:08:15] "GET /static/javascript/announced_polling_unit_results.js?q=1649880491 HTTP/1.1" 200 -
+04/13/2022 09:08:15 PM 127.0.0.1 - - [13/Apr/2022 21:08:15] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:29:19 PM 127.0.0.1 - - [13/Apr/2022 21:29:19] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:29:19 PM 127.0.0.1 - - [13/Apr/2022 21:29:19] "GET /static/javascript/announced_polling_unit_results.js?q=1649881755 HTTP/1.1" 200 -
+04/13/2022 09:29:19 PM 127.0.0.1 - - [13/Apr/2022 21:29:19] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:38:46 PM 127.0.0.1 - - [13/Apr/2022 21:38:46] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:38:46 PM 127.0.0.1 - - [13/Apr/2022 21:38:46] "GET /static/javascript/announced_polling_unit_results.js?q=1649882317 HTTP/1.1" 200 -
+04/13/2022 09:38:46 PM 127.0.0.1 - - [13/Apr/2022 21:38:46] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:42:02 PM 127.0.0.1 - - [13/Apr/2022 21:42:02] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:42:03 PM 127.0.0.1 - - [13/Apr/2022 21:42:03] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:43:43 PM 127.0.0.1 - - [13/Apr/2022 21:43:43] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:43:43 PM 127.0.0.1 - - [13/Apr/2022 21:43:43] "GET /static/css/announced_polling_unit_results.css?q=1649882618 HTTP/1.1" 200 -
+04/13/2022 09:43:43 PM 127.0.0.1 - - [13/Apr/2022 21:43:43] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:44:52 PM 127.0.0.1 - - [13/Apr/2022 21:44:52] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:44:52 PM 127.0.0.1 - - [13/Apr/2022 21:44:52] "GET /static/css/announced_polling_unit_results.css?q=1649882687 HTTP/1.1" 200 -
+04/13/2022 09:44:52 PM 127.0.0.1 - - [13/Apr/2022 21:44:52] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:45:24 PM 127.0.0.1 - - [13/Apr/2022 21:45:24] "POST /store_all_result_for_polling_units_parties HTTP/1.1" 200 -
+04/13/2022 09:45:29 PM 127.0.0.1 - - [13/Apr/2022 21:45:29] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:45:29 PM 127.0.0.1 - - [13/Apr/2022 21:45:29] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:49:05 PM 127.0.0.1 - - [13/Apr/2022 21:49:05] "GET / HTTP/1.1" 200 -
+04/13/2022 09:49:08 PM 127.0.0.1 - - [13/Apr/2022 21:49:08] "GET /polling_units_results HTTP/1.1" 200 -
+04/13/2022 09:49:08 PM 127.0.0.1 - - [13/Apr/2022 21:49:08] "GET /static/css/polling_units.css?q=1649865127 HTTP/1.1" 200 -
+04/13/2022 09:49:08 PM 127.0.0.1 - - [13/Apr/2022 21:49:08] "POST /polling_units_results HTTP/1.1" 200 -
+04/13/2022 09:49:10 PM 127.0.0.1 - - [13/Apr/2022 21:49:10] "GET /summed_total_results HTTP/1.1" 200 -
+04/13/2022 09:49:10 PM 127.0.0.1 - - [13/Apr/2022 21:49:10] "GET /static/javascript/summed_total_result.js?q=1649881914 HTTP/1.1" 200 -
+04/13/2022 09:49:10 PM 127.0.0.1 - - [13/Apr/2022 21:49:10] "POST /summed_total_results HTTP/1.1" 200 -
+04/13/2022 09:49:12 PM 127.0.0.1 - - [13/Apr/2022 21:49:12] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:49:12 PM 127.0.0.1 - - [13/Apr/2022 21:49:12] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:49:16 PM 127.0.0.1 - - [13/Apr/2022 21:49:16] "GET / HTTP/1.1" 200 -
+04/13/2022 09:49:18 PM 127.0.0.1 - - [13/Apr/2022 21:49:18] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/13/2022 09:49:19 PM 127.0.0.1 - - [13/Apr/2022 21:49:19] "POST /announced_polling_unit_results HTTP/1.1" 200 -

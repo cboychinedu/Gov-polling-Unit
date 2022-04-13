@@ -96,7 +96,7 @@ $.ajax({
     // working with the data gotten from the server
     summed_total = data["data"]
 
-    // Acess the table tag element dom properties
+    // Access the table tag element dom properties
     table = document.getElementById("my_table");
 
     // Loop, and append the values into the table tag
@@ -120,7 +120,7 @@ $.ajax({
         table.appendChild(tr);
     }
 
-}); 
+});
 
 // Adding an event listener for the search button
 search_button.addEventListener("click", (event) => {

@@ -39,7 +39,6 @@ a:focus {
 .main_section{
     margin-top: 120px;
     margin-left: 100px;
-    background-color: #efeeee;
     color: black;
     width: auto;
     font-size: 16px;
@@ -73,6 +72,48 @@ a:focus {
     margin-right: 105px;
     padding-top: 48px;
 }
+#my_table {
+    display: inline-block;
+    position: relative;
+}
+
+.my_table {
+    background-color:#260222;
+    border-collapse:collapse;
+}
+.my_table th {
+    background-color: #260222;
+    color:white;
+    width:5%;
+}
+
+.my_table th {
+    padding-left: 6px;
+    padding-right: 6px;
+    border:1px solid #260222;
+}
+
+td {
+    background-color: #dbdbdb;
+    color: #202020;
+    width: auto;
+    height: 90px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #cbc6c6;
+}
+
+th {
+    background-color: #260222;
+    color: #b1b1b1;
+    border-radius:  5px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+}
+
 
 .search_polling_unit {
     font-size: 14px;
@@ -217,4 +258,10 @@ ul li {
   margin-top: 64px;
   margin-left: 109px;
   background-color: #fffce7;
+}
+
+.main_table_div {
+  overflow-y: scroll;
+  height: 685px;
+  overflow-x: hidden;
 }

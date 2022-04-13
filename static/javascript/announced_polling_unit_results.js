@@ -17,6 +17,53 @@ result_id.addEventListener("click", (event) => {
     flash_message_div.style.display = "none";
 });
 
+// Creating a function to create an html element
+let create_element = (element) => {
+    // Execute the block of code below to create html element
+    element = document.createElement(element)
+
+    // Return the element
+    return element;
+};
+
+// Update the table row with the following data
+$.ajax({
+    // Setting ajax configurations
+    type: "POST",
+    url: "/announced_polling_unit_results",
+    crossDomain: true,
+    contentType: "application/json",
+})
+// On successful connection, execute the code block below
+.done((data, textStatus, request) => {
+    // Working with the data gotten from the server
+    announced_results = data["data"];
+
+    // Access the table tag element dom prop
+    table = document.getElementById("my_table");
+
+    // Loop, and append the values into the table tag,
+    for (let i = 0; i < announced_results.length; i++) {
+        // Loop, and execute the code block below
+        // Create table, row, and data, then save the created table data
+        // into the table element
+        tr = create_element("tr");
+        tr.innerHTML = `
+          <td> ${announced_results[i][0]}</td>
+          <td> ${announced_results[i][1]}</td>
+          <td> ${announced_results[i][2]}</td>
+          <td> ${announced_results[i][3]}</td>
+          <td> ${announced_results[i][4]}</td>
+          <td> ${announced_results[i][5]}</td>
+          <td> ${announced_results[i][6]}</td>
+        `;
+
+        // Append the data into the table element
+        table.appendChild(tr);
+    }
+
+}); 
+
 // Getting the dom element for the submit button
 let submit_btn = document.getElementById("submit_btn");
 
