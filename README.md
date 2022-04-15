@@ -4,7 +4,7 @@
 This is a program that displays polling units from  INEC  for Wards under LGA, and states. <br>
 
 
-<h3>  Description  <h3> </br>
+<h3>  Description  </h3> </br>
 <img src="static/images/mobile1.jpg"  width="400" height="700" alt="mobile_version_1" style="float: left;" /> 
 <img src="static/images/mobile2.jpg" alt="mobile_version_2" width="400" height="700" style="float: left; margin-left: 10px;" /> <br> <br>
 
@@ -32,7 +32,7 @@ This is a program that displays polling units from  INEC  for Wards under LGA, a
 * <b> DPP: </b> 719  <br> 
 * <b> ACN: </b> 416  <br> 
 * <b> PPA: </b> 939  <br> 
-* <b> CDC: </b> 394  <br> <br>
+* <b> CDC: </b> 394  <br> 
 
 <b> Polling unit </b> uniqueid and <b> Announced polling unit results </b> are two different rows. 
 
