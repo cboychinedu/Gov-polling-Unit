@@ -182,10 +182,12 @@ ul li {
     margin-left: 40px;
     margin-bottom: 12px;
     height: 44px;
+    width: 246px;
     border: 1px solid #e19d8d;
   }
   .summed_total_results {
     margin-left: 40px;
+    width: 246px;
     border: 1px solid #e19d8d;
   }
   .announced_polling_unit{
@@ -193,7 +195,7 @@ ul li {
     margin-left: 11px;
   }
   .footer_div {
-    margin-top: 20px;
+    margin-top: 300px;
     font-size: 10px;
     height: 274px;
     padding-right: 53px;

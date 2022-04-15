@@ -142,12 +142,14 @@ ul li {
   .search {
     margin-left: 0px;
     margin-bottom: 12px;
+    width: 246px;
     height: 44px;
     border: 1px solid #e19d8d;
   }
   .summed_total_results {
     margin-left: 0px;
     border: 1px solid #e19d8d;
+    width: 246px; 
   }
   .announced_polling_unit{
     font-size: 14px;

@@ -34,27 +34,3 @@ view_announced_polling_units_btn.addEventListener("click", (event) => {
     // Button
     location.href = "/announced_polling_unit_results";
 });
-
-//
-store_all_result_for_parties_btn.addEventListener("click", (event) => {
-    //
-    location.href = "/store_all_result_for_polling_units_parties";
-});
-
-
-
-// Using ajax
-// $.ajax({
-//     // Setting ajax configurations
-//     type: "POST",
-//     url: "/notifications",
-//     crossDomain: true,
-//     contentType: "application/json",
-// })
-// // On successful connection, execute the code block below
-// .done((data, textStatus, request) =>
-// {
-//     // Execute this block of code below if the server responded with
-//     console.log(data)
-
-// })

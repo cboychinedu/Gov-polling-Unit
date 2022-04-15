@@ -173,4 +173,5 @@ def store_all_result_for_polling_units_parties():
 
 # Running the application
 if __name__ == "__main__":
+    # app.run(host="192.168.216.200", debug=True)
     app.run()
