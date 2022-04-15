@@ -13,26 +13,30 @@ This is a program that displays polling units from  INEC  for Wards under LGA, a
 
 </b>
 
-The central idea of this project is that given all the individual results announced in the polling units under any local government area, the user should be able to get an estimated result for that local government area. This can then be cross-checked with the result announced at the local government level. <br> 
-
-The table  Polling Units  contains a list of poling units each has a ward of ID ,  Local Government Area , and  State ID. 
-
-The table ward contains a list of wards, while the local government contains a list of local government area. <br> 
-
-Result from each polling unit is stored on about 9 rows with the score from each party being individual rows. <br> 
-
-i). For the polling units with the uniqueid of 8, we have the results as follows <br> 
+</p>
 
 
-<b> PDP: 802 </b> <br> 
-<b> DPP: 719 </b> <br> 
-<b> ACN: 416 </b> <br> 
-<b> PPA: 939 </b> <br> 
-<b> CDC: 394 </b> <br> 
+* The central idea of this project is that given all the individual results announced in the polling units under any local government area, the user should be able to get an estimated result for that local government area. This can then be cross-checked with the result announced at the local government level. 
+
+* The table  Polling Units  contains a list of poling units each has a ward of ID ,  Local Government Area , and  State ID. 
+
+* The table ward contains a list of wards, while the local government contains a list of local government area. 
+
+* Result from each polling unit is stored on about 9 rows with the score from each party being individual rows. 
+
+* i). For the polling units with the uniqueid of 8, we have the results as follows 
+
+<br> 
+
+* <b> PDP: </b> 802  <br> 
+* <b> DPP: </b> 719  <br> 
+* <b> ACN: </b> 416  <br> 
+* <b> PPA: </b> 939  <br> 
+* <b> CDC: </b> 394  <br> <br>
 
 <b> Polling unit </b> uniqueid and <b> Announced polling unit results </b> are two different rows. 
 
-</p> <br> 
+<br> 
 
 <h3> <b> Dependencies </b> </h3>
 <p> 
