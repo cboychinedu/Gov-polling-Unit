@@ -4,9 +4,8 @@
 This is a program that displays polling units from  INEC  for Wards under LGA, and states. <br>
 
 
-<h3>  Description  </h3> </br>
-<img src="static/images/mobile1.jpg"  width="750" height="700" 
-style="margin-left: 30px;"alt="mobile_version_1" /> 
+<img src="static/images/mobile1.jpg" alt="mobile_version_2" width="750" height="700" style="margin-left: 30px;" /> 
+
 <img src="static/images/mobile2.jpg" alt="mobile_version_2" width="750" height="700" style="margin-left: 30px;" /> <br> <br>
 
 <img src="static/images/pc1.png" alt="pc_version1" /> </br>
@@ -16,6 +15,7 @@ style="margin-left: 30px;"alt="mobile_version_1" />
 
 </p>
 
+<h3>  Description  </h3> </br>
 
 * The central idea of this project is that given all the individual results announced in the polling units under any local government area, the user should be able to get an estimated result for that local government area. This can then be cross-checked with the result announced at the local government level. 
 
