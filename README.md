@@ -1,12 +1,5 @@
 <h2> <b> GOVERNMENT POLLING UNIT ANALYSIS </b> </h2> 
 
-<h3> <b> Description </b> <h3> <br>
-<img src="static/images/mobile1.jpg"  width="400" height="700" alt="mobile_version_1" style="float: left;"> 
-<img src="static/images/mobile2.jpg" alt="mobile_version_2" width="400" height="700" style="float: left; margin-left: 10px;"> <br> <br>
-
-<img src="static/images/pc1.png" alt="pc_version1"> <br>
-<img src="static/images/pc2.png" alt="pc_version2" > <br>
-
 <p>
 This is a program that displays polling units from  INEC  for Wards under LGA, and states. <br>
 
