@@ -4,12 +4,13 @@
 <img src="static/images/mobile1.jpg"  width="400" height="700" alt="mobile_version_1" style="float: left;"> 
 <img src="static/images/mobile2.jpg" alt="mobile_version_2" width="400" height="700" style="float: left; margin-left: 10px;"> <br> <br>
 
-<img src="" alt="mobile_version_2"> <br>
-<img src="" alt="pc_version_2" > <br>
+<img src="static/images/pc1.png" alt="pc_version1"> <br>
+<img src="static/images/pc2.png" alt="pc_version2" > <br>
 
 <br> <br>
 <p>
 This is a program that displays polling units from <b> INEC </b> for Wards under LGA, and states. <br>
+
 The central idea of this project is that given all the individual results announced in the polling units under any local government area, the user should be able to get an estimated result for that local government area. This can then be cross-checked with the result announced at the local government level. <br> 
 
 The table <b> Polling Units </b> contains a list of poling units each has a ward of <b> ID </b>, <b> Local Government Area </b>, and <b> State ID </b>. 
