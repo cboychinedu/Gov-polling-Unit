@@ -7,19 +7,20 @@
 <img src="static/images/pc1.png" alt="pc_version1"> <br>
 <img src="static/images/pc2.png" alt="pc_version2" > <br>
 
-<br> <br>
 <p>
-This is a program that displays polling units from <b> INEC </b> for Wards under LGA, and states. <br>
+This is a program that displays polling units from  INEC  for Wards under LGA, and states. <br>
 
 The central idea of this project is that given all the individual results announced in the polling units under any local government area, the user should be able to get an estimated result for that local government area. This can then be cross-checked with the result announced at the local government level. <br> 
 
-The table <b> Polling Units </b> contains a list of poling units each has a ward of <b> ID </b>, <b> Local Government Area </b>, and <b> State ID </b>. 
+The table  Polling Units  contains a list of poling units each has a ward of ID ,  Local Government Area , and  State ID. 
 
 The table ward contains a list of wards, while the local government contains a list of local government area. <br> 
 
 Result from each polling unit is stored on about 9 rows with the score from each party being individual rows. <br> 
 
 i). For the polling units with the uniqueid of 8, we have the results as follows <br> 
+
+
 <b> PDP: 802 </b> <br> 
 <b> DPP: 719 </b> <br> 
 <b> ACN: 416 </b> <br> 
