@@ -5,8 +5,8 @@ This is a program that displays polling units from  INEC  for Wards under LGA, a
 
 
 <h3>  Description  </h3> </br>
-<img src="static/images/mobile1.jpg"  width="650" height="700" alt="mobile_version_1" style="box-shadow: 10px; 10px; 10px; 10px;" /> 
-<img src="static/images/mobile2.jpg" alt="mobile_version_2" width="650" height="700" style="margin-left: 10px;" /> <br> <br>
+<img src="static/images/mobile1.jpg"  width="750" height="700" alt="mobile_version_1" /> 
+<img src="static/images/mobile2.jpg" alt="mobile_version_2" width="750" height="700" style="margin-left: 10px;" /> <br> <br>
 
 <img src="static/images/pc1.png" alt="pc_version1" /> </br>
 <img src="static/images/pc2.png" alt="pc_version2" /> </br>
