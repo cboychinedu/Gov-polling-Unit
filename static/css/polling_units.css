@@ -113,7 +113,7 @@ th {
 }
 
 .search_box {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 299px;
     height: 41px;
     padding-left: 16px;
@@ -282,7 +282,7 @@ ul li {
     margin-left: 0px;
     margin-bottom: 12px;
     height: 44px;
-    font-size: 12px; 
+    font-size: 12px;
     border: 1px solid #e19d8d;
   }
   .search {

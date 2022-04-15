@@ -116,7 +116,7 @@ th {
 
 
 .search_polling_unit {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 299px;
     height: 41px;
     padding-left: 16px;
@@ -147,7 +147,7 @@ th {
 
 /* Adding the footer styling */
 .footer_div {
-  margin-top: 10px;
+  margin-top: 200px;
   display: flex;
   height: 272px;
   background-color: #260222;
@@ -196,7 +196,7 @@ ul li {
   height: 40px;
   width: 234px;
   border-radius: 4px;
-  font-size: 15px;
+  font-size: 12px;
   padding-left: 15px;
   margin-left: 10px;
   margin-bottom: 20px;
@@ -262,7 +262,7 @@ ul li {
 
 .main_table_div {
   overflow-y: scroll;
-  height: 685px;
+  height: 615px;
   overflow-x: hidden;
 }
 
@@ -347,7 +347,7 @@ ul li {
   .search_box {
     margin-left: 0px;
     margin-bottom: 12px;
-    font-size: 12px; 
+    font-size: 12px;
     height: 44px;
     border: 1px solid #e19d8d;
   }
@@ -425,7 +425,7 @@ ul li {
   }
   .main_table_div {
     overflow-y: scroll;
-    height: 430px;
+    height: 615px;
     width: 386px;
     overflow-x: scroll;
   }
