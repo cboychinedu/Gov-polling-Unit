@@ -1158,3 +1158,107 @@
 04/15/2022 10:35:20 AM 192.168.216.110 - - [15/Apr/2022 10:35:20] "GET /static/css/polling_units.css?q=1650015176 HTTP/1.1" 200 -
 04/15/2022 10:35:20 AM 192.168.216.110 - - [15/Apr/2022 10:35:20] "POST /polling_units_results HTTP/1.1" 200 -
 04/15/2022 10:35:58 AM  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+04/15/2022 10:42:27 AM  * Running on http://192.168.216.200:5000/ (Press CTRL+C to quit)
+04/15/2022 10:42:27 AM  * Restarting with stat
+04/15/2022 10:42:28 AM  * Debugger is active!
+04/15/2022 10:42:28 AM  * Debugger PIN: 108-832-895
+04/15/2022 10:42:36 AM 192.168.216.200 - - [15/Apr/2022 10:42:36] "GET / HTTP/1.1" 200 -
+04/15/2022 10:42:36 AM 192.168.216.200 - - [15/Apr/2022 10:42:36] "GET /static/css/index.css?q=1650015303 HTTP/1.1" 200 -
+04/15/2022 10:42:39 AM 192.168.216.200 - - [15/Apr/2022 10:42:39] "GET /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:42:39 AM 192.168.216.200 - - [15/Apr/2022 10:42:39] "GET /static/css/polling_units.css?q=1650015176 HTTP/1.1" 200 -
+04/15/2022 10:42:39 AM 192.168.216.200 - - [15/Apr/2022 10:42:39] "GET /static/javascript/polling_units_result.js?q=1649795626 HTTP/1.1" 200 -
+04/15/2022 10:42:39 AM 192.168.216.200 - - [15/Apr/2022 10:42:39] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:42:41 AM 192.168.216.200 - - [15/Apr/2022 10:42:41] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:42:43 AM 192.168.216.200 - - [15/Apr/2022 10:42:43] "POST /search_polling_units_results/ddd HTTP/1.1" 200 -
+04/15/2022 10:45:59 AM 192.168.216.200 - - [15/Apr/2022 10:45:59] "GET /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:45:59 AM 192.168.216.200 - - [15/Apr/2022 10:45:59] "GET /static/css/polling_units.css?q=1650015957 HTTP/1.1" 200 -
+04/15/2022 10:46:00 AM 192.168.216.200 - - [15/Apr/2022 10:46:00] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:46:01 AM 192.168.216.200 - - [15/Apr/2022 10:46:01] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:46:03 AM 192.168.216.200 - - [15/Apr/2022 10:46:03] "POST /search_polling_units_results/ss HTTP/1.1" 200 -
+04/15/2022 10:46:15 AM 192.168.216.200 - - [15/Apr/2022 10:46:15] "GET / HTTP/1.1" 200 -
+04/15/2022 10:46:17 AM 192.168.216.200 - - [15/Apr/2022 10:46:17] "GET /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:46:17 AM 192.168.216.200 - - [15/Apr/2022 10:46:17] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:46:18 AM 192.168.216.200 - - [15/Apr/2022 10:46:18] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:46:20 AM 192.168.216.200 - - [15/Apr/2022 10:46:20] "POST /search_polling_units_results/aserftgh HTTP/1.1" 200 -
+04/15/2022 10:46:24 AM 192.168.216.200 - - [15/Apr/2022 10:46:24] "GET / HTTP/1.1" 200 -
+04/15/2022 10:46:26 AM 192.168.216.200 - - [15/Apr/2022 10:46:26] "GET /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:46:26 AM 192.168.216.200 - - [15/Apr/2022 10:46:26] "GET /static/css/summed_total.css?q=1650015287 HTTP/1.1" 200 -
+04/15/2022 10:46:27 AM 192.168.216.200 - - [15/Apr/2022 10:46:27] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:46:28 AM 192.168.216.200 - - [15/Apr/2022 10:46:28] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:46:30 AM 192.168.216.200 - - [15/Apr/2022 10:46:30] "POST /search_summed_total_results/sdfgh HTTP/1.1" 200 -
+04/15/2022 10:47:03 AM 192.168.216.200 - - [15/Apr/2022 10:47:03] "GET /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:47:03 AM 192.168.216.200 - - [15/Apr/2022 10:47:03] "GET /static/css/summed_total.css?q=1650016020 HTTP/1.1" 200 -
+04/15/2022 10:47:03 AM 192.168.216.200 - - [15/Apr/2022 10:47:03] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:47:04 AM 192.168.216.200 - - [15/Apr/2022 10:47:04] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:47:06 AM 192.168.216.200 - - [15/Apr/2022 10:47:06] "POST /search_summed_total_results/sdrtyhj HTTP/1.1" 200 -
+04/15/2022 10:47:10 AM 192.168.216.200 - - [15/Apr/2022 10:47:10] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:47:11 AM 192.168.216.200 - - [15/Apr/2022 10:47:11] "POST /search_summed_total_results/sdrtyhj HTTP/1.1" 200 -
+04/15/2022 10:47:40 AM 192.168.216.200 - - [15/Apr/2022 10:47:40] "GET /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:47:41 AM 192.168.216.200 - - [15/Apr/2022 10:47:41] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:47:42 AM 192.168.216.200 - - [15/Apr/2022 10:47:42] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:47:44 AM 192.168.216.200 - - [15/Apr/2022 10:47:44] "POST /search_summed_total_results/drftyu HTTP/1.1" 200 -
+04/15/2022 10:47:46 AM 192.168.216.200 - - [15/Apr/2022 10:47:46] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:06 AM 192.168.216.110 - - [15/Apr/2022 10:48:06] "GET /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:48:06 AM 192.168.216.110 - - [15/Apr/2022 10:48:06] "GET /static/css/polling_units.css?q=1650015957 HTTP/1.1" 200 -
+04/15/2022 10:48:06 AM 192.168.216.110 - - [15/Apr/2022 10:48:06] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:48:08 AM 192.168.216.110 - - [15/Apr/2022 10:48:08] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:48:10 AM 192.168.216.110 - - [15/Apr/2022 10:48:10] "POST /search_polling_units_results/hhdjdjj HTTP/1.1" 200 -
+04/15/2022 10:48:12 AM 192.168.216.110 - - [15/Apr/2022 10:48:12] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:48:14 AM 192.168.216.110 - - [15/Apr/2022 10:48:14] "GET / HTTP/1.1" 200 -
+04/15/2022 10:48:16 AM 192.168.216.110 - - [15/Apr/2022 10:48:16] "GET /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:16 AM 192.168.216.110 - - [15/Apr/2022 10:48:16] "GET /static/css/summed_total.css?q=1650016020 HTTP/1.1" 200 -
+04/15/2022 10:48:16 AM 192.168.216.110 - - [15/Apr/2022 10:48:16] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:19 AM 192.168.216.110 - - [15/Apr/2022 10:48:19] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:21 AM 192.168.216.110 - - [15/Apr/2022 10:48:21] "POST /search_summed_total_results/gdjdksj HTTP/1.1" 200 -
+04/15/2022 10:48:27 AM 192.168.216.200 - - [15/Apr/2022 10:48:27] "POST /search_summed_total_results/ddffg HTTP/1.1" 200 -
+04/15/2022 10:48:34 AM 192.168.216.110 - - [15/Apr/2022 10:48:34] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:39 AM 192.168.216.110 - - [15/Apr/2022 10:48:39] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:42 AM 192.168.216.110 - - [15/Apr/2022 10:48:42] "POST /search_summed_total_results/North HTTP/1.1" 200 -
+04/15/2022 10:48:45 AM 192.168.216.110 - - [15/Apr/2022 10:48:45] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:50 AM 192.168.216.200 - - [15/Apr/2022 10:48:50] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:51 AM 192.168.216.200 - - [15/Apr/2022 10:48:51] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:48:55 AM 192.168.216.200 - - [15/Apr/2022 10:48:55] "POST /search_summed_total_results/North HTTP/1.1" 200 -
+04/15/2022 10:49:02 AM 192.168.216.200 - - [15/Apr/2022 10:49:02] "GET /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:49:02 AM 192.168.216.200 - - [15/Apr/2022 10:49:02] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:51:10 AM 192.168.216.110 - - [15/Apr/2022 10:51:10] "GET /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:51:11 AM 192.168.216.110 - - [15/Apr/2022 10:51:11] "GET /static/css/summed_total.css?q=1650016178 HTTP/1.1" 200 -
+04/15/2022 10:51:11 AM 192.168.216.110 - - [15/Apr/2022 10:51:11] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:51:13 AM 192.168.216.110 - - [15/Apr/2022 10:51:13] "GET / HTTP/1.1" 200 -
+04/15/2022 10:51:13 AM 192.168.216.110 - - [15/Apr/2022 10:51:13] "GET /static/css/index.css?q=1650016267 HTTP/1.1" 200 -
+04/15/2022 10:51:24 AM 192.168.216.110 - - [15/Apr/2022 10:51:24] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/15/2022 10:51:24 AM 192.168.216.110 - - [15/Apr/2022 10:51:24] "GET /static/css/announced_polling_unit_results.css?q=1650016238 HTTP/1.1" 200 -
+04/15/2022 10:51:24 AM 192.168.216.110 - - [15/Apr/2022 10:51:24] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/15/2022 10:51:44 AM 192.168.216.110 - - [15/Apr/2022 10:51:44] "GET / HTTP/1.1" 200 -
+04/15/2022 10:51:49 AM 192.168.216.110 - - [15/Apr/2022 10:51:49] "GET /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:51:49 AM 192.168.216.110 - - [15/Apr/2022 10:51:49] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:51:53 AM 192.168.216.110 - - [15/Apr/2022 10:51:53] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:51:55 AM 192.168.216.110 - - [15/Apr/2022 10:51:55] "POST /search_summed_total_results/ggg HTTP/1.1" 200 -
+04/15/2022 10:51:57 AM 192.168.216.110 - - [15/Apr/2022 10:51:57] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:51:59 AM 192.168.216.110 - - [15/Apr/2022 10:51:59] "[33mPOST /search_summed_total_results/ HTTP/1.1[0m" 404 -
+04/15/2022 10:52:02 AM 192.168.216.110 - - [15/Apr/2022 10:52:02] "[33mPOST /search_summed_total_results/ HTTP/1.1[0m" 404 -
+04/15/2022 10:52:05 AM 192.168.216.110 - - [15/Apr/2022 10:52:05] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/15/2022 10:52:06 AM 192.168.216.110 - - [15/Apr/2022 10:52:06] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/15/2022 10:54:57 AM  * Running on http://192.168.216.200:5000/ (Press CTRL+C to quit)
+04/15/2022 10:54:57 AM  * Restarting with stat
+04/15/2022 10:54:57 AM  * Debugger is active!
+04/15/2022 10:54:57 AM  * Debugger PIN: 108-832-895
+04/15/2022 10:54:59 AM 192.168.216.110 - - [15/Apr/2022 10:54:59] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/15/2022 10:55:00 AM 192.168.216.110 - - [15/Apr/2022 10:55:00] "POST /announced_polling_unit_results HTTP/1.1" 200 -
+04/15/2022 10:55:12 AM 192.168.216.110 - - [15/Apr/2022 10:55:12] "GET / HTTP/1.1" 200 -
+04/15/2022 10:55:14 AM 192.168.216.110 - - [15/Apr/2022 10:55:14] "GET /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:55:15 AM 192.168.216.110 - - [15/Apr/2022 10:55:15] "GET /static/css/polling_units.css?q=1650016187 HTTP/1.1" 200 -
+04/15/2022 10:55:15 AM 192.168.216.110 - - [15/Apr/2022 10:55:15] "GET /static/javascript/polling_units_result.js?q=1650016444 HTTP/1.1" 200 -
+04/15/2022 10:55:15 AM 192.168.216.110 - - [15/Apr/2022 10:55:15] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:55:16 AM 192.168.216.110 - - [15/Apr/2022 10:55:16] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:55:18 AM 192.168.216.110 - - [15/Apr/2022 10:55:18] "POST /search_polling_units_results/jjjjj HTTP/1.1" 200 -
+04/15/2022 10:55:23 AM 192.168.216.110 - - [15/Apr/2022 10:55:23] "POST /polling_units_results HTTP/1.1" 200 -
+04/15/2022 10:55:27 AM 192.168.216.110 - - [15/Apr/2022 10:55:27] "GET / HTTP/1.1" 200 -
+04/15/2022 10:55:29 AM 192.168.216.110 - - [15/Apr/2022 10:55:29] "GET /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:55:29 AM 192.168.216.110 - - [15/Apr/2022 10:55:29] "GET /static/javascript/summed_total_result.js?q=1650016485 HTTP/1.1" 200 -
+04/15/2022 10:55:29 AM 192.168.216.110 - - [15/Apr/2022 10:55:29] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:55:30 AM 192.168.216.110 - - [15/Apr/2022 10:55:30] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:55:33 AM 192.168.216.110 - - [15/Apr/2022 10:55:33] "POST /search_summed_total_results/vbbjh HTTP/1.1" 200 -
+04/15/2022 10:55:37 AM 192.168.216.110 - - [15/Apr/2022 10:55:37] "POST /summed_total_results HTTP/1.1" 200 -
+04/15/2022 10:55:43 AM 192.168.216.110 - - [15/Apr/2022 10:55:43] "GET / HTTP/1.1" 200 -
+04/15/2022 10:55:45 AM 192.168.216.110 - - [15/Apr/2022 10:55:45] "GET /announced_polling_unit_results HTTP/1.1" 200 -
+04/15/2022 10:55:45 AM 192.168.216.110 - - [15/Apr/2022 10:55:45] "POST /announced_polling_unit_results HTTP/1.1" 200 -

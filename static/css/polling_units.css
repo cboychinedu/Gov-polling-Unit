@@ -282,6 +282,7 @@ ul li {
     margin-left: 0px;
     margin-bottom: 12px;
     height: 44px;
+    font-size: 12px; 
     border: 1px solid #e19d8d;
   }
   .search {
@@ -293,7 +294,7 @@ ul li {
   }
   .summed_total_results {
     margin-left: 0px;
-    width: 246px; 
+    width: 246px;
     border: 1px solid #e19d8d;
   }
   .announced_polling_unit{
@@ -325,6 +326,14 @@ ul li {
   }
   table#my_table {
     width: 348px;
+  }
+  .flash_message_div {
+    height: 30px;
+    width: 211px;
+    font-size: 12px;
+    padding-top: 11px;
+    margin-left: 45px;
+    margin-right: 45px;
   }
 
 

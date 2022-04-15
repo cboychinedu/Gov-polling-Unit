@@ -172,6 +172,7 @@ ul li {
   .search_polling_unit {
     margin-left: 40px;
     font-size: 12px;
+    font-size: 12px; 
     border: 1px solid #e19d8d;
   }
   .polling_units_div_res {

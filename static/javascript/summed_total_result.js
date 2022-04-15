@@ -168,6 +168,8 @@ search_button.addEventListener("click", (event) => {
             </tr> `;
 
             // Displaying a flash message, then stop.
+            let respond_message = "Result Not Found!"; 
+            alert(respond_message);
             flash_message_div.style.display = "grid";
             return;
         }

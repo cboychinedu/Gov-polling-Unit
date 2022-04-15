@@ -68,7 +68,7 @@ search_box.addEventListener("click", (event) => {
            </tr>
          `;
 
-         // Loop, and append the values into the table tag 
+         // Loop, and append the values into the table tag
          for (let i = 0; i < polling_unit.length; i++ ) {
              // console.log(polling_unit[i])
 
@@ -187,6 +187,8 @@ search_button.addEventListener("click", (event) => {
             </tr>`;
 
           // Displalying the flash message and closing up.
+          let respond_message = "Polling Unit Not Found!"; 
+          alert(respond_message);
           flash_message_div.style.display = "grid";
           return;
         }
